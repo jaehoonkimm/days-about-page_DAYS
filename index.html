@@ -27,16 +27,15 @@
   />
 
   <style>
-    .gallery_div{
-      width: 100%;
-      height: 100%;
+    .gallery_img{
       border : 2px solid black;
       display: flex;
-      /* flex-direction: column; */
+      flex-direction: row;
       /* align-items: center; */
       /* margin-bottom: 30px; */
       display: inline-flex;
       margin-left: 2%;
+      max-width: 30%; height: auto;
     }
   </style>
 
@@ -408,17 +407,10 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Gallery">
       <div class="w-100">
         <h2 class="mb-5" >Gallery</h2>
-          <div class="gallery_div" style="max-width: 30%;">
-            <img  class="img-fluid img-profile mx-auto mb-2" src="img/ssg.png" alt="">
-          </div>
-          <div class="gallery_div" style="max-width: 30%;">
-            <img  class="img-fluid img-profile mx-auto mb-2" src="img/summerClass.png" alt="">
-          </div>
-          <div class="gallery_div" style="max-width: 30%;">
-            <img  class="img-fluid img-profile mx-auto mb-2" src="img/summerClass_document.png" alt="">
-          </div>
+          <img class="gallery_img" src="img/ssg.png" alt="">
+          <img class="gallery_img" src="img/summerClass.png" alt="">
+          <img class="gallery_img" src="img/summerClass_document.png" alt="">
           
-
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
       
